@@ -1,0 +1,18 @@
+# Moving wsl to another Drive
+
+https://blog.iany.me/2020/06/move-wsl-to-another-drive/
+
+On powershell:
+
+cd D:\
+mkdir WSL
+cd WSL
+wsl --export Ubuntu ubuntu.tar
+wsl --unregister Ubuntu
+mkdir Ubuntu
+wsl --import Ubuntu Ubuntu ubuntu.tar 
+
+wsl
+
+
+PS: I dind't had to change anything on registry. It just works with this steps before.

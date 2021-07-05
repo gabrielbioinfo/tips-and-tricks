@@ -1,0 +1,9 @@
+# Change the default user from root to the user created
+
+https://askubuntu.com/questions/816732/how-to-change-default-user-in-wsl-ubuntu-bash-on-windows-10
+
+On poweshell:
+
+ubuntu config --default-user <username>
+sc stop LxssManager
+sc start LxssManager

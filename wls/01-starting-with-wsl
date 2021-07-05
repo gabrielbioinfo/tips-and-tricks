@@ -1,0 +1,12 @@
+# Change the default user from root to the user created
+
+To use wsl we have to enable HYPER-V on our motherboard.
+
+checking hyper-v if it's enabled
+https://www.zdnet.com/article/windows-10-tip-find-out-if-your-pc-can-run-hyper-v/ 
+
+Intalling wsl 2 to use windows subsystem
+https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10 
+
+Docker for windows - optimizing ram
+https://medium.com/@lewwybogus/how-to-stop-wsl2-from-hogging-all-your-ram-with-docker-d7846b9c5b37 
