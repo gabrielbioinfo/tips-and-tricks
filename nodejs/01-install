@@ -1,0 +1,12 @@
+# Installing Node from nvm
+
+https://github.com/nvm-sh/nvm
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+source ~/.bashrc
+
+nvm list-remote
+
+#here I'm suppose to install the lts most of the time or a specific version if I really want it
+nvm install lts/erbium
