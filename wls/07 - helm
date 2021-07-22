@@ -1,0 +1,17 @@
+Helm is the best way to find, share, and use software built for Kubernetes.
+
+https://codelabs.solace.dev/codelabs/helm-environment-setup/#0
+
+
+$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+$ chmod 700 get_helm.sh
+$ ./get_helm.sh
+
+
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+
+
+Installing repos
+
+$ helm repo add stable https://charts.helm.sh/stable
+$ helm repo add solacecharts https://solaceproducts.github.io/pubsubplus-kubernetes-quickstart/helm-charts
