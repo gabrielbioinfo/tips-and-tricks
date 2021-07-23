@@ -1,10 +1,6 @@
-
-
 gpg --list-secret-key --keyid-form LONG
 
-
 gpg --full-generate-key
-
 1
 4096
 5y
@@ -15,6 +11,14 @@ gpg --armor --export 123CB50EBF1EE675
 git config --global user.signingkey 123CB50EBF1EE675
 
 git config --global commit.gpgsign true
+git config --global tag.gpgSign true
 
 ~/.profile
 export GPG_TTY=$(tty)
+
+para não precisar digitar a senha todas as vezes
+
+vim ~/.gnupg/gpp.conf
+use-agent
+
+gpgconf --launch gpg-agent
